@@ -1,3 +1,14 @@
-src/obj
-src/Properties
-src/appsettings.Development.json
+cqrsmediator/cqrsmediator.Api/bin/
+cqrsmediator/cqrsmediator.Api/appsettings.Development.json
+cqrsmediator/cqrsmediator.Api/obj/
+cqrsmediator/cqrsmediator.Api/Properties/
+cqrsmediator/cqrsmediator.Domain/bin/
+cqrsmediator/cqrsmediator.Domain/obj/
+cqrsmediator/cqrsmediator.Domain/Properties/
+cqrsmediator/cqrsmediator.Application/bin/
+cqrsmediator/cqrsmediator.Application/obj/
+cqrsmediator/cqrsmediator.Application/Properties/
+cqrsmediator/cqrsmediator.Infrastructure/bin/
+cqrsmediator/cqrsmediator.Infrastructure/obj/
+cqrsmediator/cqrsmediator.Infrastructure/Properties/
+
