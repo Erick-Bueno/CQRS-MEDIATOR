@@ -2,9 +2,10 @@ namespace cqrsmediator.Domain.Entity
 {
     public class Blog
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string Author { get; set; }
+        public int Id { get; set; }
+        public string Name { get; private set; }
+        public string Description { get; private set; }
+        public string Author { get; private set; }
     }
 
 }
