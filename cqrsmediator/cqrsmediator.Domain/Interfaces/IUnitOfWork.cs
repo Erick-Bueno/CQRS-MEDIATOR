@@ -1,9 +1,10 @@
+using System.Data;
+
 namespace cqrsmediator.Domain.Interfaces
 {
     public interface IUnitOfWork
     {
-        IBlogRepository BlogRepository { get; }
-        Task CommitAsync();
+        IDbTransaction BeginTransaction();
     }
 
 }
