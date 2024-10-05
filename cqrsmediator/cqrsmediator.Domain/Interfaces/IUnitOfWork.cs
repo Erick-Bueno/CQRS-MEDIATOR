@@ -1,7 +1,11 @@
 using cqrsmediator.Domain.Interfaces;
 
-public interface IUnitOfWork
+namespace cqrsmediator.Domain.Interfaces
 {
-    IBlogRepository BlogRepository{ get;}
-    Task CommitAsync();
+    public interface IUnitOfWork
+    {
+        IBlogRepository BlogRepository { get; }
+        Task CommitAsync();
+    }
+
 }
