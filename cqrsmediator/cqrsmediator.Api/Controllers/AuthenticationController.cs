@@ -15,12 +15,14 @@ namespace cqrsmediator.Api.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterRequest request)
         {
-            return Ok(request);
+            var response = await _authenticationService.Register(request)
+            return Ok(result);
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginRequest request)
         {
-            return Ok(request);
+            var response = await _authenticationService.Login(request);
+            return Ok(response);
         }
     }
 }
