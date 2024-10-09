@@ -1,5 +1,4 @@
 using cqrsmediator.Application.Services.Authentication;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace cqrsmediator.Infrastructure
