@@ -3,7 +3,7 @@ using cqrsmediator.Application.Response;
 
 namespace cqrsmediator.Application.Services.Authentication
 {
-    public class AuthenticationService : IAuthenticationService
+    internal class AuthenticationService : IAuthenticationService
     {
         public Task<LoginResponse> Login(LoginRequest request)
         {
