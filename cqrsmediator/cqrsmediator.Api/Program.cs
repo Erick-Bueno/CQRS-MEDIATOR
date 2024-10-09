@@ -1,3 +1,4 @@
+using cqrsmediator.Application;
 using cqrsmediator.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var app = builder.Build();
 builder.Services.AddInfrastructure();
+builder.Services.AddApplication();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
